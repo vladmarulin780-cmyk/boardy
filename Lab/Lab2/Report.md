@@ -7,3 +7,4 @@
 ![седьмой скрин](/screenshots/07-git-config.png)
 ![восьмой скрин](/screenshots/08-ssh-github.png)
 ![девятый скрин](/screenshots/09-github-repo.png)
+![десятый скрин](/sreenshots/10-pull-request.png)
