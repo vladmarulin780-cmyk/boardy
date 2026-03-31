@@ -1,5 +1,5 @@
 ![директория boardy](screenshots/01-directory.png)
-![конфиг для домена](screenshots/02-vhost-config.png)
+![root - директория, где лежат файлики; access_log - журнал запросов; error_log - журнал ошибок запросов; try_files - пробует найти, что отдать пользователю, если не находит - 404; error_page - страничка с 404 ошибкой](screenshots/02-vhost-config.png)
 ![лендинг в браузере](screenshots/03-landing.png)
 ![feedback форма](screenshots/04-form.png)
 ![страничка 404 ошибка](screenshots/05-404.png)
