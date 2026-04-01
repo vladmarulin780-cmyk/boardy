@@ -6,7 +6,7 @@
 ![listen 443 ssl; ssl_certificate /etc/letsencrypt/live/bulochka.ai-info.ru/fullchain.pem; ssl_certificate_key /etc/letsencrypt/live/bulochka.ai-info.ru/privkey.pem;](06-nginx-ssl-config.png)
 ![сообщение об успешной выдаче сертификата, но уже на api host](07-api-certbot.png)
 ![запросы на оба хоста](08-both-https.png)
-![в выводе этой команды ничего не нашел, поэтому взял информацию отсюда curl -v https://bulochka.ai-info.ru/. TLSv1.3, алгоритм шифрования: TLS_AES_256_GCM_SHA384, subject: CN=bulochka.ai-info.ru, issuer: CN=bulochka.ai-info.ru, срок действия: start date: Apr  1 18:53:30 2026 GMT - expire date: Jun 30 18:53:29 2026 GMT](09-tls-handshake.png)
+![в выводе этой команды ничего не нашел, поэтому взял информацию отсюда curl -v https://bulochka.ai-info.ru/. TLSv1.3, алгоритм шифрования: TLS_AES_256_GCM_SHA384, subject: CN=bulochka.ai-info.ru, issuer: C=US; O=Let's Encrypt; CN=R12, срок действия: start date: Apr  1 18:53:30 2026 GMT - expire date: Jun 30 18:53:29 2026 GMT](09-tls-handshake.png)
 ![bulochka.ai-info.ru --> Let's Encrypt --> ISRG Root X1. Браузер проверяет кем, подписан сертификат сайта(Let's Encrypt), затем кем подписан Let's Encrypt(ISRG Root X1), а он в свою очередь встроен в ОС, если цепочка выстроилась, то появляется замочек](10-chain.png)
 ![отличается subject и даты, ведь один сертификат позже другого запрашивали](11-compare-certs.png)
 ![hsts запоминает, что этот сайт https и даже если пользователь введет http, он заменит его на https](12-hsts.png)
