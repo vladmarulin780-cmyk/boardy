@@ -1,5 +1,7 @@
 server {
     server_name bulochka.ai-info.ru;
+    listen 80;
+    server_name фамилия.ai-info.ru;
  
     root /var/www/boardy;
     index index.html;

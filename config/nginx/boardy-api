@@ -1,4 +1,5 @@
 server {
+    listen 80;
     server_name api.bulochka.ai-info.ru;
  
     root /var/www/boardy-api;
@@ -29,4 +30,5 @@ server {
     return 404; # managed by Certbot
 
 
+}
 }

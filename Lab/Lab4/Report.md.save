@@ -1,0 +1,11 @@
+![директория boardy](screenshots/01-directory.png)
+![конфиг для домена](screenshots/02-vhost-config.png)
+![лендинг в браузере](screenshots/03-landing.png)
+![feedback форма](screenshots/04-form.png)
+![страничка 404 ошибка](screenshots/05-404.png)
+![А-запись](screenshots/06-dns-api.png)
+![резолв поддомена](screenshots/07-dig-api.png)
+![api конфиг](screemshots/08-api-config.png)
+![api заглушка](screenshots/09-api-browser.png)
+![метод - GET; путь - /; версия - HTTP/1.1. Host: bulochka.ai-info.ru. Код строки ответа - 200, пояснение - OK. Content-Type: text/html; Content-Length: 1035.](screenshots/10-curl-v.png)
+![Один IP возвращает разные страницы, потому что запросы уходят на разные хосты одного домена. В третьем запросе nginx отдал ]
